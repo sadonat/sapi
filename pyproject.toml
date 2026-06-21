@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
-sapi = "sapi/cli:app"
+sapi = "sapi.cli:app"
 
 [tool.basedpyright]
 typeCheckingMode = "standard"
