@@ -1,7 +1,7 @@
 # TESTING REPORT FOR https://jsonplaceholder.typicode.com
 
 ## [GET] /posts/3
-time:  915.70ms
+time:  1221.65ms
 Request body:
 ```json
 None
@@ -12,7 +12,7 @@ Response:
 ```
 
 ## [POST] /posts
-time:  2198.16ms
+time:  1178.62ms
 Request body:
 ```json
 b'{"id": 1, "title": "Uang itu tidak berguna", "body": "Tapi booonh yahahaha", "userId": 1}'

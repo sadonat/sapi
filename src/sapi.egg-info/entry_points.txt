@@ -1,2 +1,2 @@
 [console_scripts]
-sapi = cli:app
+sapi = sapi.cli:app

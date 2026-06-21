@@ -1,5 +1,5 @@
 import typer
-import tester
+from sapi import tester
 
 app = typer.Typer()
 
