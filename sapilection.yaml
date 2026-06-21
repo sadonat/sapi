@@ -1,0 +1,17 @@
+base_url: https://jsonplaceholder.typicode.com
+variables:
+  - token
+endpoints:
+  get_posts:
+    path: /posts/3
+    method: GET
+  create_post:
+    path: /posts
+    method: POST
+    headers:
+      Content-Type: application/json
+    json:
+      id: 1
+      title: Uang itu tidak berguna
+      body: Tapi booonh yahahaha
+      userId: 1

@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: sapi
+Version: 0.1.0
+Summary: Simplicity API: a simple API testing tool
+Requires-Python: >=3.12
+Requires-Dist: requests
+Requires-Dist: pathlib
+Requires-Dist: rich
+Requires-Dist: typer
+Requires-Dist: pyyaml
+Requires-Dist: pytest

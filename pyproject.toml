@@ -1,0 +1,20 @@
+[project]
+name = "sapi"
+version = "0.1.0"
+description = "Simplicity API: a simple API testing tool"
+requires-python = ">=3.12"
+
+dependencies = [
+    "requests",
+    "pathlib",
+    "rich",
+    "typer",
+    "pyyaml",
+    "pytest"
+]
+
+[project.scripts]
+sapi = "sapi/cli:app"
+
+[tool.basedpyright]
+typeCheckingMode = "standard"

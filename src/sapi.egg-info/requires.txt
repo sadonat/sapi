@@ -1,0 +1,6 @@
+requests
+pathlib
+rich
+typer
+pyyaml
+pytest
