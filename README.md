@@ -6,9 +6,12 @@ Simple API tester, made with love by sadonat. All you need to do is create a col
 
 - Testing single endpoint
 - Testing multiple endpoints
+- Automatically creating a report file `sapireport.md`
 
 ## How to Install
-
+- Make sure you have *python*, *git* and *pip* package installed.
+- clone this repo by running this command: `git clone `
+- then run `pip install -e .` inside that directory
 ## How to Use
 
 Before anything else, you need to create a collection file. don't worry, i use yaml format so its readable and easy to master.
